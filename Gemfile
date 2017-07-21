@@ -7,6 +7,7 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'slim-rails'
+gem 'twitter'
 gem 'pg'
 gem 'puma'
 
@@ -31,4 +32,3 @@ group :test do
   gem 'guard-rspec'
   gem 'rspec-rails', group: :development
 end
-gem 'nokogiri', '>= 1.7.2'
