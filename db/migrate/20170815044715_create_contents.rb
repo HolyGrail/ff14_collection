@@ -3,6 +3,7 @@ class CreateContents < ActiveRecord::Migration[5.1]
     create_table :contents do |t|
       t.references :user
       t.uuid :uuid, null: false
+      t.string :source_url, null: false
 
       t.timestamps
     end
