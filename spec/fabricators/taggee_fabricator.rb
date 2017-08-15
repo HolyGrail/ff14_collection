@@ -1,0 +1,2 @@
+Fabricator(:taggee) do
+end

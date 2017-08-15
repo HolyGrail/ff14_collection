@@ -1,0 +1,2 @@
+class Taggee < ApplicationRecord
+end
