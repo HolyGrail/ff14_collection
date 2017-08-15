@@ -1,0 +1,2 @@
+Fabricator(:content) do
+end
